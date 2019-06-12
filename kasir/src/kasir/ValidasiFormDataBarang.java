@@ -134,7 +134,7 @@ public class ValidasiFormDataBarang {
 		satuan4.selectByVisibleText("....");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("");
 		Select kategori4 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori4.selectByVisibleText("Aksesories Komputer");
+		kategori4.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Nama Barang tidak boleh kosong !");
@@ -209,7 +209,7 @@ public class ValidasiFormDataBarang {
 		satuan7.selectByVisibleText("....");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("validasiform");
 		Select kategori7 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori7.selectByVisibleText("Aksesories Komputer");
+		kategori7.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Nama Barang tidak boleh kosong !");
@@ -253,7 +253,7 @@ public class ValidasiFormDataBarang {
 		satuan9.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("validasiform");
 		Select kategori9 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori9.selectByVisibleText("Aksesories Komputer");
+		kategori9.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Nama Barang tidak boleh kosong !");
@@ -278,7 +278,7 @@ public class ValidasiFormDataBarang {
 		satuan10.selectByVisibleText("....");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("validasiform");
 		Select kategori10 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori10.selectByVisibleText("Aksesories Komputer");
+		kategori10.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Satuan belum ada yang dipilih !");
@@ -322,7 +322,7 @@ public class ValidasiFormDataBarang {
 		satuan12.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("validasiform");
 		Select kategori12 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori12.selectByVisibleText("Aksesories Komputer");
+		kategori12.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Nama Barang tidak boleh kosong !");
@@ -347,7 +347,7 @@ public class ValidasiFormDataBarang {
 		satuan13.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("");
 		Select kategori13 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori13.selectByVisibleText("Aksesories Komputer");
+		kategori13.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Nama Barang tidak boleh kosong !");
@@ -374,7 +374,7 @@ public class ValidasiFormDataBarang {
 		satuan14.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori14 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori14.selectByVisibleText("Aksesories Komputer");
+		kategori14.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Beli (Rp.) harus diisi angka!");
@@ -395,7 +395,7 @@ public class ValidasiFormDataBarang {
 		satuan15.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori15 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori15.selectByVisibleText("Aksesories Komputer");
+		kategori15.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Jual (Rp.) harus diisi angka!");
@@ -414,7 +414,7 @@ public class ValidasiFormDataBarang {
 		satuan16.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori16 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori16.selectByVisibleText("Aksesories Komputer");
+		kategori16.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Beli (Rp.) harus diisi angka!");
@@ -433,7 +433,7 @@ public class ValidasiFormDataBarang {
 		satuan17.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori17 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori17.selectByVisibleText("Aksesories Komputer");
+		kategori17.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Beli (Rp.) harus diisi angka!");
@@ -452,7 +452,7 @@ public class ValidasiFormDataBarang {
 		satuan18.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori18 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori18.selectByVisibleText("Aksesories Komputer");
+		kategori18.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Stok barang harus diisi angka !");
@@ -469,7 +469,7 @@ public class ValidasiFormDataBarang {
 		satuan19.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori19 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori19.selectByVisibleText("Aksesories Komputer");
+		kategori19.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Jual (Rp.) harus diisi angka!");
@@ -486,7 +486,7 @@ public class ValidasiFormDataBarang {
 		satuan20.selectByVisibleText("Unit");
 		driver.findElement(By.xpath("//*[@name='txtKeterangan']")).sendKeys("huruf");
 		Select kategori20 = new Select(driver.findElement(By.xpath("//select[@name='cmbKategori']")));
-		kategori20.selectByVisibleText("Aksesories Komputer");
+		kategori20.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.cssSelector("div[class='mssgBox']")).getText()
 				.contains("Data Harga Beli (Rp.) harus diisi angka!");

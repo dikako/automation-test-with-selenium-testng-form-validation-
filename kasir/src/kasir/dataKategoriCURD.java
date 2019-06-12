@@ -1,5 +1,6 @@
 package kasir;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -18,7 +19,7 @@ public class dataKategoriCURD {
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnLogin']")).click();
 		assert driver.findElement(By.xpath("//b[contains(text(),'Anda berhasil login')]")).getText()
 				.contains("Anda berhasil login");
-		
+
 		driver.findElement(By.linkText("Data Kategori")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
 				.contains("MANAJEMEN DATA KATEGORI");
@@ -28,7 +29,7 @@ public class dataKategoriCURD {
 		driver.findElement(By.xpath("//*[@name='txtNama']")).sendKeys("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.xpath("//td[text()='Kamera']")).getText().contains("Kamera");
-		
+
 		driver.findElement(By.linkText("Data Kategori")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
 				.contains("MANAJEMEN DATA KATEGORI");
@@ -36,9 +37,16 @@ public class dataKategoriCURD {
 		assert driver.findElement(By.xpath("//th[text()='UBAH DATA KATEGORI']")).getText()
 				.contains("UBAH DATA KATEGORI");
 		driver.findElement(By.xpath("//*[@name='txtNama']")).clear();
-		driver.findElement(By.xpath("//*[@name='txtNama']")).sendKeys("Kameraubah");
+		driver.findElement(By.xpath("//*[@name='txtNama']")).sendKeys("Kamera cannon");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
-		assert driver.findElement(By.xpath("//td[text()='Kameraubah']")).getText().contains("Kameraubah");
+		assert driver.findElement(By.xpath("//td[text()='Kamera cannon']")).getText().contains("Kamera cannon");
+
+		driver.findElement(By.linkText("Delete")).click();
+		Alert alert = driver.switchTo().alert();
+		alert.dismiss();
+		driver.findElement(By.linkText("Delete")).click();
+		Alert alerts = driver.switchTo().alert();
+		alerts.accept();
 
 	}
 }

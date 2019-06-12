@@ -88,7 +88,7 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.dataBarang();
 	}
-	
+
 	@Test(priority = 12)
 	public void cekFormDataBarang() throws InterruptedException {
 		ValidasiFormDataBarang page = new ValidasiFormDataBarang(driver);
@@ -102,4 +102,5 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.transaksipembelian();
 	}
+	
 }

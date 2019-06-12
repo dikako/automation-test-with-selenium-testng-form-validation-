@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="kasir.mainClass" hash-for-method="cekTransaksiPembelian">cekTransaksiPembelian</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -164,11 +178,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="kasir.mainClass" hash-for-method="cekMenuDataSuplayer_CURD">cekMenuDataSuplayer_CURD</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="kasir.mainClass" hash-for-method="cekTransaksiPembelian">cekTransaksiPembelian</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -181,6 +190,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">kasir.mainClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cekTransaksiPembelian">
+                  </a> <!-- cekTransaksiPembelian -->
+                  <span class="method-name">cekTransaksiPembelian</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: [ B0001 ] Cannon AES | Rp. 4.000.000
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Dika&apos;, ip: &apos;169.254.219.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:35)
+	at kasir.mainClass.cekTransaksiPembelian(mainClass.java:103)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -278,13 +312,6 @@
                   <span class="method-name">cekMenuDataSuplayer_CURD</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cekTransaksiPembelian">
-                  </a> <!-- cekTransaksiPembelian -->
-                  <span class="method-name">cekTransaksiPembelian</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -343,64 +370,64 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'cekFormDataBarang')
 data.setCell(0, 2, 'kasir.mainClass')
-data.setCell(0, 3, 57561);
+data.setCell(0, 3, 61256);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'cekTransaksiPembelian')
 data.setCell(1, 2, 'kasir.mainClass')
-data.setCell(1, 3, 19946);
+data.setCell(1, 3, 46613);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'cekFormDataSuplayer')
 data.setCell(2, 2, 'kasir.mainClass')
-data.setCell(2, 3, 12586);
+data.setCell(2, 3, 12674);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'cekFormDataKasir')
+data.setCell(3, 1, 'cekMenuDataBarang_CURD')
 data.setCell(3, 2, 'kasir.mainClass')
-data.setCell(3, 3, 11142);
+data.setCell(3, 3, 12035);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'cekMenuDataBarang_CURD')
+data.setCell(4, 1, 'cekFormDataKasir')
 data.setCell(4, 2, 'kasir.mainClass')
-data.setCell(4, 3, 10896);
+data.setCell(4, 3, 11809);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'cekMenuDataKasir_CURD')
+data.setCell(5, 1, 'cekFormLogin')
 data.setCell(5, 2, 'kasir.mainClass')
-data.setCell(5, 3, 9374);
+data.setCell(5, 3, 9718);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'cekMenuDataKategori_CURD')
+data.setCell(6, 1, 'cekMenuDataSuplayer_CURD')
 data.setCell(6, 2, 'kasir.mainClass')
-data.setCell(6, 3, 8584);
+data.setCell(6, 3, 9571);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'cekMenuDataSuplayer_CURD')
+data.setCell(7, 1, 'cekMenuDataKategori_CURD')
 data.setCell(7, 2, 'kasir.mainClass')
-data.setCell(7, 3, 8126);
+data.setCell(7, 3, 8605);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'cekLoginTrue')
+data.setCell(8, 1, 'cekMenuDataKasir_CURD')
 data.setCell(8, 2, 'kasir.mainClass')
-data.setCell(8, 3, 5688);
+data.setCell(8, 3, 8133);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'cekFormLogin')
+data.setCell(9, 1, 'cekLogout')
 data.setCell(9, 2, 'kasir.mainClass')
-data.setCell(9, 3, 5642);
+data.setCell(9, 3, 7251);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'cekFormDataKategori')
+data.setCell(10, 1, 'cekLoginTrue')
 data.setCell(10, 2, 'kasir.mainClass')
-data.setCell(10, 3, 4989);
+data.setCell(10, 3, 6593);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'cekLogout')
+data.setCell(11, 1, 'cekFormDataKategori')
 data.setCell(11, 2, 'kasir.mainClass')
-data.setCell(11, 3, 4560);
+data.setCell(11, 3, 5135);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'cekLoginFailed')
+data.setCell(12, 1, 'Title')
 data.setCell(12, 2, 'kasir.mainClass')
-data.setCell(12, 3, 2865);
+data.setCell(12, 3, 3438);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Title')
+data.setCell(13, 1, 'cekLoginFailed')
 data.setCell(13, 2, 'kasir.mainClass')
-data.setCell(13, 3, 2742);
+data.setCell(13, 3, 2920);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -433,167 +460,169 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Title</span>
-                <span class="method-start">23737 ms</span>
+                <span class="method-start">19048 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">26484 ms</span>
+                <span class="method-start">22491 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">31669 ms</span>
+                <span class="method-start">34408 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekLoginTrue</span>
-                <span class="method-start">46007 ms</span>
+                <span class="method-start">67705 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">51698 ms</span>
+                <span class="method-start">74301 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">52311 ms</span>
+                <span class="method-start">75509 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekLogout</span>
-                <span class="method-start">66097 ms</span>
+                <span class="method-start">89874 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">70660 ms</span>
+                <span class="method-start">97129 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">71180 ms</span>
+                <span class="method-start">97746 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekLoginFailed</span>
-                <span class="method-start">85071 ms</span>
+                <span class="method-start">110856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">87939 ms</span>
+                <span class="method-start">113779 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">88424 ms</span>
+                <span class="method-start">114272 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekFormLogin</span>
-                <span class="method-start">103899 ms</span>
+                <span class="method-start">127664 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">109544 ms</span>
+                <span class="method-start">137385 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">110061 ms</span>
+                <span class="method-start">137888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekMenuDataKasir_CURD</span>
-                <span class="method-start">123893 ms</span>
+                <span class="method-start">151523 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">133271 ms</span>
+                <span class="method-start">159660 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">133886 ms</span>
+                <span class="method-start">160325 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekFormDataKasir</span>
-                <span class="method-start">147370 ms</span>
+                <span class="method-start">174006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">158515 ms</span>
+                <span class="method-start">185818 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">159032 ms</span>
+                <span class="method-start">186313 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekMenuDataKategori_CURD</span>
-                <span class="method-start">172176 ms</span>
+                <span class="method-start">199362 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">180762 ms</span>
+                <span class="method-start">207970 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">181302 ms</span>
+                <span class="method-start">208513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekFormDataKategori</span>
-                <span class="method-start">195134 ms</span>
+                <span class="method-start">221617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">200127 ms</span>
+                <span class="method-start">226754 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">200638 ms</span>
+                <span class="method-start">227251 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekMenuDataSuplayer_CURD</span>
-                <span class="method-start">212853 ms</span>
+                <span class="method-start">240842 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">220981 ms</span>
+                <span class="method-start">250416 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">221473 ms</span>
+                <span class="method-start">250951 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekFormDataSuplayer</span>
-                <span class="method-start">233621 ms</span>
+                <span class="method-start">264467 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">246208 ms</span>
+                <span class="method-start">277143 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">246731 ms</span>
+                <span class="method-start">277628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekMenuDataBarang_CURD</span>
-                <span class="method-start">258897 ms</span>
+                <span class="method-start">290872 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">269795 ms</span>
+                <span class="method-start">302910 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">270366 ms</span>
+                <span class="method-start">303509 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cekFormDataBarang</span>
-                <span class="method-start">283516 ms</span>
+                <span class="method-start">317009 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">341080 ms</span>
+                <span class="method-start">378268 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">341597 ms</span>
+                <span class="method-start">378790 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">cekTransaksiPembelian</span>
-                <span class="method-start">354429 ms</span>
+                <span class="method-start">392597 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setDown</span>
-                <span class="method-start">374378 ms</span>
+                <span class="method-start">439223 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
