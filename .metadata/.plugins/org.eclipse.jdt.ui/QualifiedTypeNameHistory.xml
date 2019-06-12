@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
+<fullyQualifiedTypeName name="kasir.cekTitle"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="kasir.login"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
+<fullyQualifiedTypeName name="kasir.login_logout"/>
+<fullyQualifiedTypeName name="kasir.formLogin"/>
+<fullyQualifiedTypeName name="kasir.ValidationFormLogin_kosong"/>
+<fullyQualifiedTypeName name="kasir.failedLogin"/>
+<fullyQualifiedTypeName name="kasir.dataKasirCURD"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="kasir.dataKategoriCURD"/>
+<fullyQualifiedTypeName name="kasir.ValidasiFormDataKasir_Kosong"/>
+<fullyQualifiedTypeName name="kasir.ValidasiFormDataKategori"/>
+<fullyQualifiedTypeName name="kasir.dataSuplayerCURD"/>
+<fullyQualifiedTypeName name="kasir.ValidasiFormDataSuplayer"/>
+<fullyQualifiedTypeName name="kasir.dataBarangCURD"/>
+<fullyQualifiedTypeName name="kasir.ValidasiFormDataBarang"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="kasir.transaksiPembelianBarang"/>
+</qualifiedTypeNameHistroy>

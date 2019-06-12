@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="375139" started-at="2019-06-11T17:35:17Z" finished-at="2019-06-11T17:41:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="375139" started-at="2019-06-11T17:35:17Z" finished-at="2019-06-11T17:41:32Z">
+      <class name="kasir.mainClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="23737" started-at="2019-06-11T23:05:17Z" finished-at="2019-06-11T23:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Title()[pri:0, instance:kasir.mainClass@5c7fa833]" name="Title" duration-ms="2742" started-at="2019-06-11T23:05:40Z" finished-at="2019-06-11T23:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="5184" started-at="2019-06-11T23:05:43Z" finished-at="2019-06-11T23:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="14337" started-at="2019-06-11T23:05:48Z" finished-at="2019-06-11T23:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLoginTrue()[pri:1, instance:kasir.mainClass@5c7fa833]" name="cekLoginTrue" duration-ms="5688" started-at="2019-06-11T23:06:03Z" finished-at="2019-06-11T23:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLoginTrue -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="612" started-at="2019-06-11T23:06:08Z" finished-at="2019-06-11T23:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13786" started-at="2019-06-11T23:06:09Z" finished-at="2019-06-11T23:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLogout()[pri:2, instance:kasir.mainClass@5c7fa833]" name="cekLogout" duration-ms="4560" started-at="2019-06-11T23:06:23Z" finished-at="2019-06-11T23:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLogout -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="519" started-at="2019-06-11T23:06:27Z" finished-at="2019-06-11T23:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13890" started-at="2019-06-11T23:06:28Z" finished-at="2019-06-11T23:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLoginFailed()[pri:3, instance:kasir.mainClass@5c7fa833]" name="cekLoginFailed" duration-ms="2865" started-at="2019-06-11T23:06:42Z" finished-at="2019-06-11T23:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLoginFailed -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="484" started-at="2019-06-11T23:06:45Z" finished-at="2019-06-11T23:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="15475" started-at="2019-06-11T23:06:45Z" finished-at="2019-06-11T23:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormLogin()[pri:4, instance:kasir.mainClass@5c7fa833]" name="cekFormLogin" duration-ms="5642" started-at="2019-06-11T23:07:00Z" finished-at="2019-06-11T23:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormLogin -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="516" started-at="2019-06-11T23:07:06Z" finished-at="2019-06-11T23:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13832" started-at="2019-06-11T23:07:07Z" finished-at="2019-06-11T23:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataKasir_CURD()[pri:5, instance:kasir.mainClass@5c7fa833]" name="cekMenuDataKasir_CURD" duration-ms="9374" started-at="2019-06-11T23:07:20Z" finished-at="2019-06-11T23:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataKasir_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="614" started-at="2019-06-11T23:07:30Z" finished-at="2019-06-11T23:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13484" started-at="2019-06-11T23:07:30Z" finished-at="2019-06-11T23:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataKasir()[pri:6, instance:kasir.mainClass@5c7fa833]" name="cekFormDataKasir" duration-ms="11142" started-at="2019-06-11T23:07:44Z" finished-at="2019-06-11T23:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataKasir -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="516" started-at="2019-06-11T23:07:55Z" finished-at="2019-06-11T23:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13144" started-at="2019-06-11T23:07:56Z" finished-at="2019-06-11T23:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataKategori_CURD()[pri:7, instance:kasir.mainClass@5c7fa833]" name="cekMenuDataKategori_CURD" duration-ms="8584" started-at="2019-06-11T23:08:09Z" finished-at="2019-06-11T23:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataKategori_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="540" started-at="2019-06-11T23:08:17Z" finished-at="2019-06-11T23:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13832" started-at="2019-06-11T23:08:18Z" finished-at="2019-06-11T23:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataKategori()[pri:8, instance:kasir.mainClass@5c7fa833]" name="cekFormDataKategori" duration-ms="4989" started-at="2019-06-11T23:08:32Z" finished-at="2019-06-11T23:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataKategori -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="510" started-at="2019-06-11T23:08:37Z" finished-at="2019-06-11T23:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="12215" started-at="2019-06-11T23:08:37Z" finished-at="2019-06-11T23:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataSuplayer_CURD()[pri:9, instance:kasir.mainClass@5c7fa833]" name="cekMenuDataSuplayer_CURD" duration-ms="8126" started-at="2019-06-11T23:08:49Z" finished-at="2019-06-11T23:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataSuplayer_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="492" started-at="2019-06-11T23:08:58Z" finished-at="2019-06-11T23:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="12148" started-at="2019-06-11T23:08:58Z" finished-at="2019-06-11T23:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataSuplayer()[pri:10, instance:kasir.mainClass@5c7fa833]" name="cekFormDataSuplayer" duration-ms="12586" started-at="2019-06-11T23:09:10Z" finished-at="2019-06-11T23:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataSuplayer -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="522" started-at="2019-06-11T23:09:23Z" finished-at="2019-06-11T23:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="12166" started-at="2019-06-11T23:09:23Z" finished-at="2019-06-11T23:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataBarang_CURD()[pri:11, instance:kasir.mainClass@5c7fa833]" name="cekMenuDataBarang_CURD" duration-ms="10896" started-at="2019-06-11T23:09:35Z" finished-at="2019-06-11T23:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataBarang_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="570" started-at="2019-06-11T23:09:46Z" finished-at="2019-06-11T23:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="13150" started-at="2019-06-11T23:09:47Z" finished-at="2019-06-11T23:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataBarang()[pri:12, instance:kasir.mainClass@5c7fa833]" name="cekFormDataBarang" duration-ms="57561" started-at="2019-06-11T23:10:00Z" finished-at="2019-06-11T23:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataBarang -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="516" started-at="2019-06-11T23:10:58Z" finished-at="2019-06-11T23:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setUp" is-config="true" duration-ms="12832" started-at="2019-06-11T23:10:58Z" finished-at="2019-06-11T23:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekTransaksiPembelian()[pri:13, instance:kasir.mainClass@5c7fa833]" name="cekTransaksiPembelian" duration-ms="19946" started-at="2019-06-11T23:11:11Z" finished-at="2019-06-11T23:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekTransaksiPembelian -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@5c7fa833]" name="setDown" is-config="true" duration-ms="700" started-at="2019-06-11T23:11:31Z" finished-at="2019-06-11T23:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- kasir.mainClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

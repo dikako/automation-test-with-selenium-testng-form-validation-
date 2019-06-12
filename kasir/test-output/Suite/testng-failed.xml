@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="kasir.mainClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="cekTransaksiPembelian"/>
+          <include name="setDown"/>
+        </methods>
+      </class> <!-- kasir.mainClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
