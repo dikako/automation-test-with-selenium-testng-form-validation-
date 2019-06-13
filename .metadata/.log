@@ -3475,3 +3475,9 @@ Caused by: org.eclipse.mylyn.commons.repositories.core.auth.AuthenticationExcept
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 12:34:36.261
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 12:35:37.353
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 12:35:37.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
