@@ -2875,3 +2875,9 @@ Contains: Missing org.seleniumhq.selenium:selenium-java:jar:javadoc:2.53.0
 !MESSAGE Could not resolve artifact org.seleniumhq.selenium:selenium-java:jar:javadoc:2.53.0
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-06-13 09:09:26.069
 !MESSAGE Missing org.seleniumhq.selenium:selenium-java:jar:javadoc:2.53.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 09:13:20.603
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 09:13:20.681
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
