@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.seleniumtestngtest.mainClass"/>
+      <class name="com.seleniumtestngtest.baseClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
