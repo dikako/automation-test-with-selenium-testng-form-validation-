@@ -2904,3 +2904,9 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Fransi
 
 !ENTRY org.eclipse.egit.ui 4 0 2019-06-13 09:16:24.998
 !MESSAGE Can't connect to any repository: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git (https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: not authorized)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 09:43:10.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 09:43:10.996
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
