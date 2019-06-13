@@ -24,9 +24,9 @@
 <fullyQualifiedTypeName name="kasir.ValidasiFormDataBarang"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="kasir.transaksiPembelianBarang"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
 <fullyQualifiedTypeName name="com.thoughtworks.selenium.webdriven.commands.GetTable"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>
