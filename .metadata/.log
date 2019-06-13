@@ -2881,3 +2881,26 @@ Contains: Missing org.seleniumhq.selenium:selenium-java:jar:javadoc:2.53.0
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-13 09:13:20.681
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.security 1 0 2019-06-13 09:16:16.231
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2019-06-13 09:16:24.928
+!MESSAGE An exception occurred during push on URI https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:180)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:544)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:439)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1346)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:170)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-06-13 09:16:24.998
+!MESSAGE Can't connect to any repository: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git (https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: not authorized)
