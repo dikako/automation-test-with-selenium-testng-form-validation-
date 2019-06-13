@@ -5,7 +5,6 @@ INDEX VERSION 1.131+C:\Users\Dika Koko\KASIR\.metadata\.plugins\org.eclipse.jdt.
 2646012959.index
 3488287931.index
 3159677744.index
-2555093906.index
 3509373111.index
 186901157.index
 4253483311.index
