@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 @Test
 public class mainClass extends baseClass {
-
+/*
 	@Test(priority = 0)
 	public void Title() throws InterruptedException {
 		cekTitle page = new cekTitle(driver);
@@ -95,7 +95,7 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.formDataBarang();
 	} 
-	
+	*/
 	@Test(priority = 13)
 	public void cekTransaksiPembelian() throws InterruptedException {
 		transaksiPembelianBarang page = new transaksiPembelianBarang(driver);

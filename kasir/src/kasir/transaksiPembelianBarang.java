@@ -23,6 +23,8 @@ public class transaksiPembelianBarang {
 		driver.findElement(By.linkText("Transaksi Pembelian")).click();
 		driver.get("http://localhost/program-toko/pembelian/");
 		assert driver.findElement(By.xpath("//h1[text()='PEMBELIAN BARANG']")).getText().contains("PEMBELIAN BARANG");
+		
+		driver.findElement(By.linkText("Pembelian Baru")).click();
 
 		Select suplayer = new Select(driver.findElement(By.xpath("//select[@name='cmbSupplier']")));
 		suplayer.selectByVisibleText("PT.DIKA");
@@ -32,17 +34,17 @@ public class transaksiPembelianBarang {
 		kategori.selectByVisibleText("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnPilih']")).click();
 		Select NamaBarang = new Select(driver.findElement(By.xpath("//select[@name='cmbBarang']")));
-		NamaBarang.selectByVisibleText("[ B0001 ] Cannon AES | Rp. 4.000.000");
+		NamaBarang.selectByVisibleText("[ B0004 ] Cannon | Rp. 50.000");
 		driver.findElement(By.xpath("//*[@name='txtHarga']")).clear();
-		driver.findElement(By.xpath("//*[@name='txtHarga']")).sendKeys("4.000.000");
+		driver.findElement(By.xpath("//*[@name='txtHarga']")).sendKeys("50.000");
 		driver.findElement(By.xpath("//*[@name='txtJumlah']")).clear();
 		driver.findElement(By.xpath("//*[@name='txtJumlah']")).sendKeys("2");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnTambah']")).click();
 
-		assert driver.findElement(By.xpath("//td[text()='Cannon AES']")).getText().contains("Cannon AES");
-		assert driver.findElement(By.xpath("//td[text()='4.000.000']")).getText().contains("4.000.000");
+		assert driver.findElement(By.xpath("//td[text()='Cannon']")).getText().contains("Cannon");
+		assert driver.findElement(By.xpath("//td[text()='50.000']")).getText().contains("50.000");
 		assert driver.findElement(By.xpath("//td[text()='2']")).getText().contains("2");
-		assert driver.findElement(By.xpath("//td[text()='8.000.000']")).getText().contains("8.000.000");
+		assert driver.findElement(By.xpath("//td[text()='\"100.000']")).getText().contains("100.000");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 
 		driver.findElement(By.linkText("Tampil Pembelian")).click();
@@ -55,8 +57,8 @@ public class transaksiPembelianBarang {
 		driver.get("http://localhost/program-toko/pembelian/pembelian_cetak.php?noNota=BL00001");
 		assert driver.findElement(By.xpath("//h2[contains(text(),'CETAK PEMBELIAN')]")).getText()
 				.contains("CETAK PEMBELIAN");
-		assert driver.findElement(By.xpath("//td[text()='Cannon AES']")).getText().contains("Cannon AES");
-		assert driver.findElement(By.xpath("//td[text()='4.000.000']")).getText().contains("4.000.000");
+		assert driver.findElement(By.xpath("//td[text()='Cannon']")).getText().contains("Cannon");
+		assert driver.findElement(By.xpath("//td[text()='100.000']")).getText().contains("100.000");
 		assert driver.findElement(By.xpath("//td[text()='2']")).getText().contains("2");
 
 	}

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 12 16:06:20 IST 2019</td>
+<td>Started on:</td><td>Wed Jun 12 21:43:59 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>439 seconds (439768 ms)</td>
+<tr><td>Total time:</td><td>43 seconds (43915 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,22 +76,53 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='kasir.mainClass.cekTransaksiPembelian()'><b>cekTransaksiPembelian</b><br>Test class: kasir.mainClass</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: [ B0001 ] Cannon AES | Rp. 4.000.000
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;50.000&apos;]&quot;}
+Command duration or timeout: 20.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
 System info: host: &apos;Dika&apos;, ip: &apos;169.254.219.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
-	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:35)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5330c391-0ce7-4956-9994-e2271bb7452e
+*** Element info: {Using=xpath, value=//td[text()=&apos;50.000&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:45)
 	at kasir.mainClass.cekTransaksiPembelian(mainClass.java:103)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace354605216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace354605216'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: [ B0001 ] Cannon AES | Rp. 4.000.000
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;50.000&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
 System info: host: &apos;Dika&apos;, ip: &apos;169.254.219.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
-	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:35)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855026648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855026648'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;50.000&apos;]&quot;}
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Dika&apos;, ip: &apos;169.254.219.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5330c391-0ce7-4956-9994-e2271bb7452e
+*** Element info: {Using=xpath, value=//td[text()=&apos;50.000&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:45)
 	at kasir.mainClass.cekTransaksiPembelian(mainClass.java:103)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -117,82 +148,16 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;50.000&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Dika&apos;, ip: &apos;169.254.219.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 </pre></div></td>
-<td>46</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='kasir.mainClass.Title()'><b>Title</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>3</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekFormDataBarang()'><b>cekFormDataBarang</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>61</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekFormDataKasir()'><b>cekFormDataKasir</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>11</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekFormDataKategori()'><b>cekFormDataKategori</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>5</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekFormDataSuplayer()'><b>cekFormDataSuplayer</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>12</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekFormLogin()'><b>cekFormLogin</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>9</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekLoginFailed()'><b>cekLoginFailed</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>2</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekLoginTrue()'><b>cekLoginTrue</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>6</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekLogout()'><b>cekLogout</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>7</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekMenuDataBarang_CURD()'><b>cekMenuDataBarang_CURD</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>12</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekMenuDataKasir_CURD()'><b>cekMenuDataKasir_CURD</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>8</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekMenuDataKategori_CURD()'><b>cekMenuDataKategori_CURD</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>8</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
-<tr>
-<td title='kasir.mainClass.cekMenuDataSuplayer_CURD()'><b>cekMenuDataSuplayer_CURD</b><br>Test class: kasir.mainClass</td>
-<td></td>
-<td>9</td>
-<td>kasir.mainClass@5c7fa833</td></tr>
+<td>28</td>
+<td>kasir.mainClass@457e2f02</td></tr>
 </table><p>
 </body>
 </html>
