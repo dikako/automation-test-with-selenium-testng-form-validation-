@@ -3700,3 +3700,15 @@ Caused by: java.net.UnknownHostException: github.com
 
 !ENTRY org.eclipse.egit.ui 4 0 2019-06-14 21:22:46.455
 !MESSAGE Can't connect to any repository: https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git (https://github.com/Fransiskusandika/automation-test-with-selenium-testng-form-validation-.git: cannot open git-receive-pack)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:24:19.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:24:19.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:32:22.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:32:22.188
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
