@@ -3712,3 +3712,9 @@ Caused by: java.net.UnknownHostException: github.com
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:32:22.188
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:33:17.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-14 21:33:17.800
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
