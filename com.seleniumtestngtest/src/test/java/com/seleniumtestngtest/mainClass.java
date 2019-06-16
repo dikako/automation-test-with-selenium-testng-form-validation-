@@ -2,6 +2,8 @@ package com.seleniumtestngtest;
 
 import org.testng.annotations.*;
 
+import kasir.transaksiPembelianBarang;
+
 @Test
 public class mainClass extends baseClass {
 
@@ -95,5 +97,10 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.formDataBarang();
 	}
-
+	
+	@Test(priority = 13)
+	public void cekTransaksiPembelian() throws InterruptedException {
+		transaksiPembelianBarang page = new transaksiPembelianBarang(driver);
+		driver.get("http://localhost/program-toko/");
+		page.transaksipembelian();
 }
