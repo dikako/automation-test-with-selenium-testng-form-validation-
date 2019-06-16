@@ -1,90 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43915" started-at="2019-06-12T16:13:59Z" finished-at="2019-06-12T16:14:43Z">
+  <suite name="Suite" duration-ms="34359" started-at="2019-06-16T19:37:01Z" finished-at="2019-06-16T19:37:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43915" started-at="2019-06-12T16:13:59Z" finished-at="2019-06-12T16:14:43Z">
+    <test name="Test" duration-ms="34359" started-at="2019-06-16T19:37:01Z" finished-at="2019-06-16T19:37:35Z">
       <class name="kasir.mainClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@457e2f02]" name="setUp" is-config="true" duration-ms="14890" started-at="2019-06-12T21:43:59Z" finished-at="2019-06-12T21:44:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:kasir.mainClass@457e2f02]" name="setUp" is-config="true" duration-ms="10766" started-at="2019-06-17T01:07:01Z" finished-at="2019-06-17T01:07:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="cekTransaksiPembelian()[pri:13, instance:kasir.mainClass@457e2f02]" name="cekTransaksiPembelian" duration-ms="28170" started-at="2019-06-12T21:44:14Z" finished-at="2019-06-12T21:44:42Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//td[text()='50.000']"}
-Command duration or timeout: 20.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5330c391-0ce7-4956-9994-e2271bb7452e
-*** Element info: {Using=xpath, value=//td[text()='50.000']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//td[text()='50.000']"}
-Command duration or timeout: 20.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5330c391-0ce7-4956-9994-e2271bb7452e
-*** Element info: {Using=xpath, value=//td[text()='50.000']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at kasir.transaksiPembelianBarang.transaksipembelian(transaksiPembelianBarang.java:45)
-	at kasir.mainClass.cekTransaksiPembelian(mainClass.java:103)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//td[text()='50.000']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous4541787373330220580webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="cekTransaksiPembelian()[pri:13, instance:kasir.mainClass@457e2f02]" name="cekTransaksiPembelian" duration-ms="22205" started-at="2019-06-17T01:07:11Z" finished-at="2019-06-17T01:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekTransaksiPembelian -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@457e2f02]" name="setDown" is-config="true" duration-ms="797" started-at="2019-06-12T21:44:42Z" finished-at="2019-06-12T21:44:43Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:kasir.mainClass@457e2f02]" name="setDown" is-config="true" duration-ms="1346" started-at="2019-06-17T01:07:34Z" finished-at="2019-06-17T01:07:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
