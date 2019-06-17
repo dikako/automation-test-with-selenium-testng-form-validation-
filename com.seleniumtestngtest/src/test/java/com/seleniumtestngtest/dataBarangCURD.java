@@ -20,7 +20,18 @@ public class dataBarangCURD {
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnLogin']")).click();
 		assert driver.findElement(By.xpath("//b[contains(text(),'Anda berhasil login')]")).getText()
 				.contains("Anda berhasil login");
-
+		//Kategori
+		driver.findElement(By.linkText("Data Kategori")).click();
+		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
+				.contains("MANAJEMEN DATA KATEGORI");
+		driver.findElement(By.xpath("//img[@src='images/btn_add_data.png']")).click();
+		assert driver.findElement(By.xpath("//th[contains(text(),'TAMBAH DATA KATEGORI')]")).getText()
+				.contains("TAMBAH DATA KATEGORI");
+		driver.findElement(By.xpath("//*[@name='txtNama']")).sendKeys("Kamera");
+		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
+		assert driver.findElement(By.xpath("//td[text()='Kamera']")).getText().contains("Kamera");
+		
+		//Barang
 		driver.findElement(By.linkText("Data Barang")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA BARANG')]")).getText()
 				.contains("MANAJEMEN DATA BARANG");

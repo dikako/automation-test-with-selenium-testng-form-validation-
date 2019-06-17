@@ -4106,3 +4106,276 @@ java -ea -classpath C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuratio
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:13:37.806
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-06-17 01:25:44.976
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50659 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+java -ea -classpath C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes:C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar:C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar:C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar:C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar org.testng.remote.RemoteTestNG -serport 50659 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:35:47.009
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:35:47.050
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:38:13.978
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:38:14.094
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:40:23.850
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:40:23.872
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:40:27.405
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:40:27.419
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:41:56.836
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:41:56.860
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:42:25.424
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:42:25.442
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:42:56.350
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:42:56.369
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:43:17.524
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:43:17.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:43:51.821
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:43:51.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:23.854
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:23.929
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:34.892
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:34.957
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:47.365
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:44:47.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:45:13.656
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:45:13.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:45:52.685
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:45:52.698
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:46:11.431
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:46:11.447
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:46:32.186
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:46:32.199
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:10.289
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:10.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:46.667
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:46.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:58.828
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:47:58.852
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:48:17.231
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:48:17.246
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:48:38.977
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:48:38.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:52:15.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:52:15.341
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:52:47.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 01:52:47.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-06-17 01:52:58.561
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53529 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+java -ea -classpath C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes:C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar:C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar:C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar:C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar org.testng.remote.RemoteTestNG -serport 53529 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 02:00:19.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 02:00:19.630
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-06-17 02:00:29.052
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55519 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+java -ea -classpath C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes:C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar:C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar:C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar:C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar org.testng.remote.RemoteTestNG -serport 55519 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-06-17 02:09:01.033
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58156 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+java -ea -classpath C:\Users\Dika Koko\eclipse\java-2019-03\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\test-classes:C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\target\classes:C:\Users\Dika Koko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\Dika Koko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Dika Koko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.0\selenium-server-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar:C:\Users\Dika Koko\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar:C:\Users\Dika Koko\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar:C:\Users\Dika Koko\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\Dika Koko\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\Dika Koko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\Dika Koko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Dika Koko\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\Dika Koko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar:C:\Users\Dika Koko\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar:C:\Users\Dika Koko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar org.testng.remote.RemoteTestNG -serport 58156 -protocol json -d C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\test-output C:\Users\Dika Koko\KASIR\com.seleniumtestngtest\src\main\resources\testng.xml
+!SESSION 2019-06-17 14:11:14.319 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-17 14:11:31.375
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-17 14:12:00.163
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dika Koko'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2019-06-17 14:12:22.766
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-17 14:12:22.787
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 14:13:18.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-17 14:13:18.765
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
