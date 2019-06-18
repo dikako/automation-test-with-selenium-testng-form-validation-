@@ -518,11 +518,7 @@ public class ValidasiFormDataBarang {
 				.contains("Data Harga Beli (Rp.) harus diisi angka!");
 
 		// Delete Kategori
-		driver.findElement(By.linkText("Data Kategori")).click();
-		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
-				.contains("MANAJEMEN DATA KATEGORI");
-
-		driver.findElement(By.linkText("Data Kategori")).click();
+			driver.findElement(By.linkText("Data Kategori")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
 				.contains("MANAJEMEN DATA KATEGORI");
 		driver.findElement(By.linkText("Delete")).click();

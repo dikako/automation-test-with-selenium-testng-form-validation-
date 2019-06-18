@@ -88,19 +88,20 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.dataBarang();
 	}
-
+*/
 	@Test(priority = 12)
 	public void cekFormDataBarang() throws InterruptedException {
 		ValidasiFormDataBarang page = new ValidasiFormDataBarang(driver);
 		driver.get("http://localhost/program-toko/");
 		page.formDataBarang();
 	} 
-	*/
+	/*
 	@Test(priority = 13)
 	public void cekTransaksiPembelian() throws InterruptedException {
 		transaksiPembelianBarang page = new transaksiPembelianBarang(driver);
 		driver.get("http://localhost/program-toko/");
 		page.transaksipembelian();
 	}
+	*/
 	
 }

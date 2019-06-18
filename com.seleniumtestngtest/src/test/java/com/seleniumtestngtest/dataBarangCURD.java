@@ -20,7 +20,7 @@ public class dataBarangCURD {
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnLogin']")).click();
 		assert driver.findElement(By.xpath("//b[contains(text(),'Anda berhasil login')]")).getText()
 				.contains("Anda berhasil login");
-		//Kategori
+		// Kategori
 		driver.findElement(By.linkText("Data Kategori")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
 				.contains("MANAJEMEN DATA KATEGORI");
@@ -30,8 +30,8 @@ public class dataBarangCURD {
 		driver.findElement(By.xpath("//*[@name='txtNama']")).sendKeys("Kamera");
 		driver.findElement(By.xpath("//input[@type='submit'][@name='btnSimpan']")).click();
 		assert driver.findElement(By.xpath("//td[text()='Kamera']")).getText().contains("Kamera");
-		
-		//Barang
+
+		// Barang
 		driver.findElement(By.linkText("Data Barang")).click();
 		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA BARANG')]")).getText()
 				.contains("MANAJEMEN DATA BARANG");
@@ -87,6 +87,14 @@ public class dataBarangCURD {
 		driver.findElement(By.linkText("Delete")).click();
 		Alert alerts = driver.switchTo().alert();
 		alerts.accept();
+
+		// Kategori
+		driver.findElement(By.linkText("Data Kategori")).click();
+		assert driver.findElement(By.xpath("//h2[contains(text(),'MANAJEMEN DATA KATEGORI')]")).getText()
+				.contains("MANAJEMEN DATA KATEGORI");
+		driver.findElement(By.linkText("Delete")).click();
+		Alert alertss = driver.switchTo().alert();
+		alertss.accept();
 
 	}
 }

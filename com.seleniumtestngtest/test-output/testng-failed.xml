@@ -6,8 +6,15 @@
       <class name="com.seleniumtestngtest.mainClass">
         <methods>
           <include name="setUp"/>
+          <include name="cekMenuDataSuplayer_CURD"/>
+          <include name="cekFormDataKategori"/>
+          <include name="cekMenuDataKategori_CURD"/>
           <include name="setDown"/>
           <include name="cekFormDataBarang"/>
+          <include name="cekFormDataKasir"/>
+          <include name="cekFormDataSuplayer"/>
+          <include name="cekMenuDataBarang_CURD"/>
+          <include name="cekTransaksiPembelian"/>
         </methods>
       </class> <!-- com.seleniumtestngtest.mainClass -->
     </classes>

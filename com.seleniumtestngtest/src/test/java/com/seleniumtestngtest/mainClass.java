@@ -102,4 +102,5 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.transaksipembelian();
 	}
+
 }

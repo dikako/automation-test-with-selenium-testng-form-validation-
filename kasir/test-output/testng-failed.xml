@@ -5,8 +5,8 @@
     <classes>
       <class name="kasir.mainClass">
         <methods>
+          <include name="cekFormDataBarang"/>
           <include name="setUp"/>
-          <include name="cekTransaksiPembelian"/>
           <include name="setDown"/>
         </methods>
       </class> <!-- kasir.mainClass -->
