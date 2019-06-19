@@ -102,5 +102,14 @@ public class mainClass extends baseClass {
 		driver.get("http://localhost/program-toko/");
 		page.transaksipembelian();
 	}
+	/*
+	@Test(priority = 14)
+	public void cekTransaksiPenjualan() throws InterruptedException {
+		transaksiPenjualanBarang page = new transaksiPenjualanBarang(driver);
+		driver.get("http://localhost/program-toko/");
+		page.cekTransaksiPenjualan();
+		
+	}
+	*/
 
 }
