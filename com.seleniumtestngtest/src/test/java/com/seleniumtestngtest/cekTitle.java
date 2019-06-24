@@ -12,7 +12,7 @@ public class cekTitle {
 
 	public void title() {
 		String title = driver.getTitle();
-		System.out.println("Test is run on : " + title);
+		System.out.println("Test is run on: " + title);
 		Assert.assertEquals(title, "Toko Aksessori Komputer dan Gadget");
 	}
 }
