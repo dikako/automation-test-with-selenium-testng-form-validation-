@@ -1,95 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43029" started-at="2019-06-18T11:41:36Z" finished-at="2019-06-18T11:42:19Z">
+  <suite name="Default suite" duration-ms="582777" started-at="2019-07-05T08:59:14Z" finished-at="2019-07-05T09:08:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43029" started-at="2019-06-18T11:41:36Z" finished-at="2019-06-18T11:42:19Z">
+    <test name="Default test" duration-ms="582777" started-at="2019-07-05T08:59:14Z" finished-at="2019-07-05T09:08:57Z">
       <class name="com.seleniumtestngtest.mainClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@3ffc5af1]" name="setUp" is-config="true" duration-ms="10495" started-at="2019-06-18T11:41:36Z" finished-at="2019-06-18T11:41:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="48545" started-at="2019-07-05T08:59:14Z" finished-at="2019-07-05T09:00:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="cekTransaksiPenjualan()[pri:14, instance:com.seleniumtestngtest.mainClass@3ffc5af1]" name="cekTransaksiPenjualan" duration-ms="32036" started-at="2019-06-18T11:41:46Z" finished-at="2019-06-18T11:42:18Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"css selector","selector":"div[class='mssgBox']"}
-Command duration or timeout: 20.26 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1099080a-4100-4959-bcd7-fc81fef3f5cd
-*** Element info: {Using=css selector, value=div[class='mssgBox']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div[class='mssgBox']"}
-Command duration or timeout: 20.26 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1099080a-4100-4959-bcd7-fc81fef3f5cd
-*** Element info: {Using=css selector, value=div[class='mssgBox']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at com.seleniumtestngtest.transaksiPenjualanBarang.cekTransaksiPenjualan(transaksiPenjualanBarang.java:106)
-at com.seleniumtestngtest.mainClass.cekTransaksiPenjualan(mainClass.java:110)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div[class='mssgBox']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'Dika', ip: '169.254.219.208', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
-Driver info: driver.version: unknown
-at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous5451878198437609771webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DIKAKO~1/AppData/Local/Temp/anonymous5451878198437609771webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="Title()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="Title" duration-ms="11806" started-at="2019-07-05T09:00:03Z" finished-at="2019-07-05T09:00:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cekTransaksiPenjualan -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@3ffc5af1]" name="setDown" is-config="true" duration-ms="457" started-at="2019-06-18T11:42:18Z" finished-at="2019-06-18T11:42:19Z">
+        </test-method> <!-- Title -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="12296" started-at="2019-07-05T09:00:14Z" finished-at="2019-07-05T09:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="23114" started-at="2019-07-05T09:00:27Z" finished-at="2019-07-05T09:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLoginTrue()[pri:1, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekLoginTrue" duration-ms="30269" started-at="2019-07-05T09:00:50Z" finished-at="2019-07-05T09:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLoginTrue -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="3630" started-at="2019-07-05T09:01:20Z" finished-at="2019-07-05T09:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="25825" started-at="2019-07-05T09:01:24Z" finished-at="2019-07-05T09:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLogout()[pri:2, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekLogout" duration-ms="23870" started-at="2019-07-05T09:01:50Z" finished-at="2019-07-05T09:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLogout -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="1849" started-at="2019-07-05T09:02:13Z" finished-at="2019-07-05T09:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="29649" started-at="2019-07-05T09:02:15Z" finished-at="2019-07-05T09:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekLoginFailed()[pri:3, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekLoginFailed" duration-ms="3942" started-at="2019-07-05T09:02:45Z" finished-at="2019-07-05T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekLoginFailed -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="637" started-at="2019-07-05T09:02:49Z" finished-at="2019-07-05T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="14460" started-at="2019-07-05T09:02:50Z" finished-at="2019-07-05T09:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormLogin()[pri:4, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekFormLogin" duration-ms="6815" started-at="2019-07-05T09:03:04Z" finished-at="2019-07-05T09:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormLogin -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="580" started-at="2019-07-05T09:03:11Z" finished-at="2019-07-05T09:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="15318" started-at="2019-07-05T09:03:11Z" finished-at="2019-07-05T09:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataKasir_CURD()[pri:5, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekMenuDataKasir_CURD" duration-ms="10149" started-at="2019-07-05T09:03:27Z" finished-at="2019-07-05T09:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataKasir_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="884" started-at="2019-07-05T09:03:37Z" finished-at="2019-07-05T09:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="19208" started-at="2019-07-05T09:03:38Z" finished-at="2019-07-05T09:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataKasir()[pri:6, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekFormDataKasir" duration-ms="23780" started-at="2019-07-05T09:03:57Z" finished-at="2019-07-05T09:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataKasir -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="856" started-at="2019-07-05T09:04:21Z" finished-at="2019-07-05T09:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="16904" started-at="2019-07-05T09:04:22Z" finished-at="2019-07-05T09:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataKategori_CURD()[pri:7, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekMenuDataKategori_CURD" duration-ms="15435" started-at="2019-07-05T09:04:38Z" finished-at="2019-07-05T09:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataKategori_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="966" started-at="2019-07-05T09:04:54Z" finished-at="2019-07-05T09:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="23307" started-at="2019-07-05T09:04:55Z" finished-at="2019-07-05T09:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataKategori()[pri:8, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekFormDataKategori" duration-ms="5159" started-at="2019-07-05T09:05:18Z" finished-at="2019-07-05T09:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataKategori -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="701" started-at="2019-07-05T09:05:23Z" finished-at="2019-07-05T09:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="13953" started-at="2019-07-05T09:05:24Z" finished-at="2019-07-05T09:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataSuplayer_CURD()[pri:9, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekMenuDataSuplayer_CURD" duration-ms="10612" started-at="2019-07-05T09:05:38Z" finished-at="2019-07-05T09:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataSuplayer_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="678" started-at="2019-07-05T09:05:49Z" finished-at="2019-07-05T09:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="13571" started-at="2019-07-05T09:05:49Z" finished-at="2019-07-05T09:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataSuplayer()[pri:10, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekFormDataSuplayer" duration-ms="13207" started-at="2019-07-05T09:06:03Z" finished-at="2019-07-05T09:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataSuplayer -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="685" started-at="2019-07-05T09:06:16Z" finished-at="2019-07-05T09:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="13695" started-at="2019-07-05T09:06:17Z" finished-at="2019-07-05T09:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekMenuDataBarang_CURD()[pri:11, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekMenuDataBarang_CURD" duration-ms="17110" started-at="2019-07-05T09:06:30Z" finished-at="2019-07-05T09:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekMenuDataBarang_CURD -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="732" started-at="2019-07-05T09:06:48Z" finished-at="2019-07-05T09:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="16016" started-at="2019-07-05T09:06:48Z" finished-at="2019-07-05T09:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekFormDataBarang()[pri:12, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekFormDataBarang" duration-ms="68923" started-at="2019-07-05T09:07:04Z" finished-at="2019-07-05T09:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekFormDataBarang -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="999" started-at="2019-07-05T09:08:13Z" finished-at="2019-07-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setUp" is-config="true" duration-ms="14101" started-at="2019-07-05T09:08:14Z" finished-at="2019-07-05T09:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cekTransaksiPembelian()[pri:13, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="cekTransaksiPembelian" duration-ms="27547" started-at="2019-07-05T09:08:28Z" finished-at="2019-07-05T09:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekTransaksiPembelian -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:com.seleniumtestngtest.mainClass@5e5792a0]" name="setDown" is-config="true" duration-ms="795" started-at="2019-07-05T09:08:56Z" finished-at="2019-07-05T09:08:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
       </class> <!-- com.seleniumtestngtest.mainClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
